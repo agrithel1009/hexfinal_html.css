@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+.wrap{
+	font-family: 'Noto Sans TC', sans-serif;
+}
+.logo h1{
+	float: left;
+}
+.logo h1 a{
+	display: block;
+	width: 225px;
+	height: 50px;
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	background: url("../img/logo.png");
+}
+.social{
+	height: 30px;
+	background-color: #f6f6f6;
+}
+.social ul{
+	float: right;
+	margin-right: 5px;
+}
+.social ul li{
+	float: left;
+	margin: 6px;
+}
+.social li a{
+	text-decoration: none;
+}
+.social li img{
+	margin-right: 5px;
+	margin-top: 1px;
+	float: left;
+}
+.fb{
+	border-right: 2px solid #cccccc;
+	padding-right: 8px;
+}
+.fb span{
+	color: #4460A0;
+}
+.tt span{
+	color: #00AAEC;
+}
+.menu{
+	float: right;
+	margin-top: 15px;
+}
+.menu li{
+	float: left;	
+}
+.menu li a{
+	text-decoration: none;
+	width: 100px;
+	height: 50px;
+	padding: 12px;
+	color: #00CC99;
+	text-align: center;
+	box-sizing: border-box;
+}
+.menu a:hover{
+	border-bottom: 3px solid #00CC99;
+}
+.banner{
+	background: url("../img/banner.png");
+	background-size: cover;
+	width: 100%;
+	height: 360px;
+	padding-top: 100px;
+	box-sizing: border-box;
+}
+.title{
+	color: white;
+	font-size: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 25px;
+	background-color: rgb(0, 0, 0, 0.5);
+}
+.clearfix{
+	clear: both;
+}
+.lesson{
+	display: table;
+	margin: 50px auto;
+}
+.item{
+	display: block;
+	float: left;
+	width: 250px;
+	height: 300px;
+	padding: 15px;
+	margin: 0 15px;
+	box-shadow: 1px 1px 2px grey;
+}
+.item img{
+	width: 250px;
+}
+.item h3{
+	font-weight: bold;
+	margin: 10px auto;
+	text-align: center;
+}
+.item p, .item ul{
+	text-align: justify;
+	font-size: 14px;
+	line-height: 1.4;
+}
+.item ul{
+	list-style: disc;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+.differ h3{
+	font-weight: bold;
+	margin: 10px auto;
+	font-size: 20px;
+	text-align: center;
+}
+.differ table{
+	margin: 40px auto;
+	font-size: 14px;
+}
+.differ th, .differ td{
+	padding: 10px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	width: 200px;
+	text-align: left;
+}
+.differ th{
+	font-weight: bold;
+	background: #F7F7F7;
+}
+.differ span{
+	color: #00CC99;
+}
+.contact{
+	display: table;
+	background: linear-gradient(#00644b, #009771);
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+}
+.contact h3{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	margin-bottom: 10px;
+}
+.contact form{
+	display: table;
+	margin: 20px auto;
+	width: 100%;
+}
+.contact form input{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.contact form label{
+	color: white;
+}
+.opt{
+	float: left;
+	width: 40%;
+	margin-left: 95px;
+}
+.basic{
+	float: right;
+	width: 40%;
+	height: 20px;
+	margin-right: 70px;
+}
+#msg{
+	height: 240px;
+}
+#send{
+	width: 60px;
+	height: 30px;
+	color: white;
+	background: #00CC99;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.footer img{
+	float: left;
+	margin: 20px;
+}
+.footer p{
+	margin: 20px;
+	float: right;
+	line-height: 1.5;
+}
+.footer span{
+	color: red;
+}
