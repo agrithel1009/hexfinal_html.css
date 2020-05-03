@@ -2,28 +2,19 @@
 
 .wrap{
 	font-family: 'Noto Sans TC', sans-serif;
+	width: 900px;
+	margin: 0 auto;
 }
-.logo h1{
-	float: left;
-}
-.logo h1 a{
-	display: block;
-	width: 225px;
-	height: 50px;
-	text-indent: 100%;
-	overflow: hidden;
-	white-space: nowrap;
-	background: url("../img/logo.png");
-}
-.social{
-	height: 30px;
+.header{
 	background-color: #f6f6f6;
 }
-.social ul{
-	float: right;
-	margin-right: 5px;
+.clearfix{
+	clear: both;
 }
-.social ul li{
+.social{
+	float: right;
+}
+.social li{
 	float: left;
 	margin: 6px;
 }
@@ -45,6 +36,18 @@
 .tt span{
 	color: #00AAEC;
 }
+.logo{
+	float: left;
+}
+.logo h1 a{
+	display: block;
+	width: 225px;
+	height: 50px;
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	background: url("../img/logo.png");
+}
 .menu{
 	float: right;
 	margin-top: 15px;
@@ -53,10 +56,11 @@
 	float: left;	
 }
 .menu li a{
+	display: block;
 	text-decoration: none;
-	width: 100px;
-	height: 50px;
-	padding: 12px;
+	width: 90px;
+	height: 40px;
+	padding-top: 4px;
 	color: #00CC99;
 	text-align: center;
 	box-sizing: border-box;
@@ -67,7 +71,6 @@
 .banner{
 	background: url("../img/banner.png");
 	background-size: cover;
-	width: 100%;
 	height: 360px;
 	padding-top: 100px;
 	box-sizing: border-box;
@@ -78,13 +81,11 @@
 	padding-top: 50px;
 	padding-bottom: 50px;
 	padding-left: 25px;
+	line-height: 1.5;
 	background-color: rgb(0, 0, 0, 0.5);
 }
-.clearfix{
-	clear: both;
-}
 .lesson{
-	display: table;
+	display: flex;
 	margin: 50px auto;
 }
 .item{
@@ -93,7 +94,7 @@
 	width: 250px;
 	height: 300px;
 	padding: 15px;
-	margin: 0 15px;
+	margin: 0 10px;
 	box-shadow: 1px 1px 2px grey;
 }
 .item img{
@@ -139,7 +140,6 @@
 	color: #00CC99;
 }
 .contact{
-	display: table;
 	background: linear-gradient(#00644b, #009771);
 	width: 100%;
 	box-sizing: border-box;
@@ -152,32 +152,32 @@
 	margin-bottom: 10px;
 }
 .contact form{
-	display: table;
-	margin: 20px auto;
-	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 30px auto;
 }
-.contact form input{
+.opt,.basic{
+	width: 50%;
+	padding-left: 20px;
+}
+#msg{
+	width: 90%;
+	height: 95%;
+}
+.in{
+	display: block;
+	width: 80%;
 	margin-top: 8px;
 	margin-bottom: 8px;
 }
 .contact form label{
+	display: block;
 	color: white;
 }
-.opt{
-	float: left;
-	width: 40%;
-	margin-left: 95px;
-}
-.basic{
+.send{
 	float: right;
-	width: 40%;
-	height: 20px;
-	margin-right: 70px;
-}
-#msg{
-	height: 240px;
-}
-#send{
+	margin-right: 77px;
+	margin-top: 5px;
 	width: 60px;
 	height: 30px;
 	color: white;
@@ -185,6 +185,9 @@
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
+}
+.send:hover{
+	background: #00664C;
 }
 .footer img{
 	float: left;

@@ -23,41 +23,40 @@
 <body>
 	<div class="wrap">
 		<div class="header">
-			<div class="social">
-			<ul>
+			<ul class="social clearfix">
 				<li class="fb">
 					<a href="#">
-						<img src="img/fbIcon.png" alt="fb">
-						<span>粉絲團</span>
+					<img src="img/fbIcon.png" alt="fb">
+					<span>粉絲團</span>
 					</a>
 				</li>
 				<li class="tt">
 					<a href="#">
-						<img src="img/twitterIcon.png" alt="twitter">
-						<span>追隨我們</span>
+					<img src="img/twitterIcon.png" alt="twitter">
+					<span>追隨我們</span>
 					</a>
 				</li>
 			</ul>
-		</div>
-		<div class="logo">
-			<h1><a href="#">六角學院</a></h1>
-		</div>
-		<div class="menu">
-			<ul>
-				<li><a href="#">首頁</a></li>
-				<li><a href="#">產品介紹</a></li>
-				<li><a href="#">聯絡我們</a></li>
+			<ul class="clearfix">
+				<li class="logo">
+					<h1><a href="#">六角學院</a></h1>
+				</li>
+				<li class="menu">
+					<ul>
+						<li><a href="#">首頁</a></li>
+						<li><a href="#">產品介紹</a></li>
+						<li><a href="#">聯絡我們</a></li>
+					</ul>
+				</li>
 			</ul>
 		</div>
-		<div class="clearfix"></div>
-		<div class="banner">
+		<div class="banner clearfix">
 			<div class="title">
 				<h2>六角學院<br/>讓您奠定良好的前端基礎</h2>
-			</div>			
-		</div>
+			</div>
 		</div>
 		<div class="content">
-			<div class="lesson">
+			<div class="lesson clearfix">
 			<ul>
 				<li class="item">
 					<img src="img/html.gif" alt="html">
@@ -83,8 +82,7 @@
 				</li>
 			</ul>
 			</div>
-			<div class="clearfix"></div>
-			<div class="differ">
+			<div class="differ clearfix">
 				<h3>線上及實體課程的差異</h3>
 				<table>
 					<tr>
@@ -131,25 +129,26 @@
 					</tr>
 				</table>
 			</div>
-			<div class="clearfix"></div>
-			<div class="contact">
+			<div class="contact clearfix">
 				<h3>對我們的課程有興趣嗎？</h3>
 				<h3>歡迎留下您的資料</h3>
 				<form action="index.html">
-					<label for="msg" class="opt">留言</label><br/>
-					<input type="textarea" id="msg" class="opt" name="msg"><br/>
-					<label for="name" class="basic">姓名</label><br/>
-					<input type="text" id="name" class="basic" name="name"><br/>
-					<label for="phone" class="basic">電話</label><br/>
-					<input type="text" id="phone" class="basic" name="phone"><br/>
-					<label for="email" class="basic">信箱</label><br/>
-					<input type="text" id="email" class="basic" name="email"><br/>
-					<input type="submit" id="send" class="basic" value="送出">
+					<div class="opt">
+						<textarea name="msg" id="msg"></textarea>
+					</div>
+					<div class="basic">
+						<label for="name">姓名</label>
+						<input type="text" id="name" name="name" class="in">
+						<label for="phone">電話</label>
+						<input type="text" id="phone" name="phone" class="in">
+						<label for="email">信箱</label>
+						<input type="text" id="email" name="email" class="in">
+						<input type="submit" class="send" value="送出">
+					</div>						
 				</form>
 			</div>
 		</div>
-		<div class="clearfix"></div>
-		<div class="footer">
+		<div class="footer clearfix">
 			<img src="img/footerLogo.png" alt="hexschool">
 			<p>聯絡我們：<span>hexshool@gmail.com</span><br/>
 			電話：<span>0999123456</span></p>
